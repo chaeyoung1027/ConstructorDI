@@ -12,20 +12,15 @@
 
 
 
-        <bean id = "t1" class = "kr.hs.study.beans.TestBean1" lazy-init="true" />
-        <bean id = "t2" class = "kr.hs.study.beans.TestBean1" lazy-init="true">
-                <constructor-arg value = "1"/>
-
+        <bean id="t1" class="kr.hs.study.beans.TestBean1" lazy-init="true"/>
+        <bean id="t2" class="kr.hs.study.beans.TestBean1" lazy-init="true">
+                <constructor-arg value="1" type="int"/>
         </bean>
-
-        <bean id = "t3" class = "kr.hs.study.beans.TestBean1" lazy-init="true">
-                <constructor-arg value = "1.1"/>
-
+        <bean id="t3" class="kr.hs.study.beans.TestBean1" lazy-init="true">
+                <constructor-arg value="2.2" type="double"/>
         </bean>
-
-        <bean id = "t4" class = "kr.hs.study.beans.TestBean1" lazy-init="true">
-                <constructor-arg value = "Spring"/>
-
+        <bean id="t4" class="kr.hs.study.beans.TestBean1" lazy-init="true">
+                <constructor-arg value="spring3" type="String"/>
         </bean>
 
 
