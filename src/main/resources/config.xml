@@ -22,6 +22,20 @@
         <bean id="t4" class="kr.hs.study.beans.TestBean1" lazy-init="true">
                 <constructor-arg value="spring3" type="String"/>
         </bean>
+<!--        <bean id = "t5" class="kr.hs.study.beans.TestBean2" lazy-init="true">-->
+<!--                <constructor-arg>-->
+<!--                        <bean id = "d1" class="kr.hs.study.beans.DataBean"/>-->
+<!--                </constructor-arg>-->
+<!--                <constructor-arg>-->
+<!--                        <bean id = "d1" class="kr.hs.study.beans.DataBean"/>-->
+<!--                </constructor-arg>-->
+<!--        </bean>-->
+        <bean id="d1" class = "kr.hs.study.beans.DataBean" lazy-init="true"/>
+        <bean id="t6" class = "kr.hs.study.beans.TestBean2" lazy-init="true">
+                <constructor-arg ref="d1"/>
+                <constructor-arg ref="d1"/>
+        </bean>
+        <!--위의 코드와 아래 코드는 같다 -->
 
 
 
