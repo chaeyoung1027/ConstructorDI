@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981f9eae-d1a6-4721-b880-807dbd2fd228" name="Changes" comment="type 수정!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/beans/DataBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/beans/TestBean2.java" afterDir="false" />
+    <list default="true" id="981f9eae-d1a6-4721-b880-807dbd2fd228" name="Changes" comment="객체 주입 방법 학습!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/hs/study/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +22,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -85,12 +81,20 @@
       <option name="project" value="LOCAL" />
       <updated>1678949317916</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="객체 주입 방법 학습!">
+      <created>1678950700953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678950700953</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="스프링 우선순위 실습!&#10;String&gt;double&gt;int" />
     <MESSAGE value="type 수정!" />
-    <option name="LAST_COMMIT_MESSAGE" value="type 수정!" />
+    <MESSAGE value="객체 주입 방법 학습!" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체 주입 방법 학습!" />
   </component>
 </project>
